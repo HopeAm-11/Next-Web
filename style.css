@@ -46,12 +46,39 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     height: 2.625rem;
     background-color: hotpink;
 }
 
 .nav_message p:first-child {
     margin-left: 1em;
+}
+
+.nav_menu {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+
+    .nav_wrapper,
+    .icon_email {
+        display: none;
+    }
+
+    .nav_menu {
+        display: block;
+        margin-left: 1em;
+    }
+
+    .nav_page {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .nav_message {
+        display: none;
+    }
 }
