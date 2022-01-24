@@ -1,0 +1,57 @@
+body {
+    border: 1px solid red;
+}
+
+/*Nav-page*/
+.nav_page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 3rem;
+    background-color: grey;
+
+}
+
+.nav_item {
+    margin-left: 1em;
+    margin-right: 1em;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.nav_ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    border: 1px solid orange;
+    width: 40rem;
+    /*fs:16px --> 640px*/
+}
+
+.logo_page {
+    width: 100px;
+}
+
+.nav_message {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 2.625rem;
+    background-color: hotpink;
+}
+
+.nav_message p:first-child {
+    margin-left: 1em;
+}
